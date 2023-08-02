@@ -26,11 +26,11 @@ const socials = [
 ];
 
 export default function AboutUs() {
-	return (
+  return (
     <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
       <Navigation />
       <div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
-        <div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-2 lg:gap-16">
+        <div className="grid w-full grid-cols-1 gap-8 mx-auto sm:mt-0 sm:grid-cols-1 lg:gap-16">
           <h2
             className="
 				z-8
@@ -44,7 +44,7 @@ export default function AboutUs() {
 				md:text-4xl
 				whitespace-nowrap
 				bg-clip-text
-				text-right
+				text-left
 				tracking-[0.35em]"
           >
             NOSOTROS
